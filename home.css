@@ -1,0 +1,49 @@
+#resultsContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+
+}
+.painting-card { 
+    width:200px;
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid black;  
+    border-radius:5px;
+}
+
+img{
+    height: 250px;
+    width: 200px;
+}
+
+#searchbar{
+    width: 550px;
+    padding: 10px;
+    
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;    
+}
+
+.head1{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body.dark{
+    color: white;
+    background-color: black;
+}
+
+.light{
+    color: black;
+    background-color: white;
+}
