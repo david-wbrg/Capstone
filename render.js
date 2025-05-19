@@ -150,7 +150,8 @@ function initializeSearch()
                 // save only if not already in history
                 if (!searchHistory.includes(term))
                 {
-                    searchHistory.push(term);
+                    searchHistory.push(term)
+                    ;
                     localStorage.setItem('searchHistory', JSON.stringify(searchHistory));
                 }
             }//end of saveSearchTerm function
